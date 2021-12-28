@@ -105,14 +105,14 @@ MYSQL_USER, MYSQL_PASSWORD - These variables are optional, used in conjunction t
 env/wordpress.env
 
 ```sh
-WORDPRESS_DB_HOST - name of a database host to be used
+WORDPRESS_DB_HOST - name of a database host to be used by WordPress
 ```
 ```sh
-WORDPRESS_DB_USER - name of a database user to be used
+WORDPRESS_DB_USER - name of a database user to be used by WordPress
 ```
 ```sh
-WORDPRESS_DB_PASSWORD - name of a database password to be used
+WORDPRESS_DB_PASSWORD - name of a database password to be used by WordPress
 ```
 ```sh
-WORDPRESS_DB_NAME - name of a database name to be used
+WORDPRESS_DB_NAME - name of a database to be used by WordPress
 ```
