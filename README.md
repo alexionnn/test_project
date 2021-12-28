@@ -15,13 +15,30 @@ Docker running Nginx, PHP-FPM, MySQL PHPMyAdmin and WordPress.
 
     By this point we’ll have all the project pieces in place.
 
-4. [Use Makefile](#use-makefile) [`Optional`]
+    
+___
 
-    When developing, you can use `Makefile` for doing recurrent operations.
+## Install prerequisites
 
-5. [Use Docker Commands](#use-docker-commands)
+To run the docker commands without using **sudo** you must add the **docker** group to **your-user**:
 
-    When running, you can use docker commands for doing recurrent operations.
+```
+sudo usermod -aG docker your-user
+```
+
+For now, this project has been mainly created for Unix `(Linux/MacOS)`. Perhaps it could work on Windows.
+
+All requisites should be available for your distribution. The most important are :
+
+* [Git](https://git-scm.com/downloads)
+* [Docker](https://docs.docker.com/engine/installation/)
+* [Docker Compose](https://docs.docker.com/compose/install/)
+
+Check if `docker-compose` is already installed by entering the following command : 
+
+```sh
+which docker-compose
+```
 
 ## Clone the project
 
