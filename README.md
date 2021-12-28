@@ -52,9 +52,9 @@ Go to the project directory :
 
 ```sh
 cd test_project
+___
 
 ## Run the application
-
 
 1. Start the application :
 
